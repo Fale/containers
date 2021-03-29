@@ -18,7 +18,8 @@ RUN dnf install -y texlive \
                    texlive-layaureo \
                    texlive-supertabular \
                    texlive-textpos \
-                   texlive-makecell
+                   texlive-makecell \
+                   'tex(glossaries.sty)'
 
 WORKDIR /data
 VOLUME ["/data"]
