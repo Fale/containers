@@ -4,6 +4,7 @@ LABEL maintainer "Fabio Alessandro Locati <me@fale.io>"
 RUN dnf install -y texlive \
                    texlive-latex \
                    texlive-xetex \
+                   texlive-babel-italian.noarch \
                    texlive-cdpbundl \
                    texlive-collection-latex \
                    texlive-collection-latexrecommended \
