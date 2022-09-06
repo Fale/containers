@@ -1,27 +1,36 @@
 FROM fedora:latest
 LABEL maintainer "Fabio Alessandro Locati <me@fale.io>"
 
-RUN dnf install -y texlive \
-                   texlive-latex \
-                   texlive-xetex \
+RUN dnf update -y && \
+    dnf install -y redhat-display-fonts \
+                   redhat-mono-fonts \
+                   redhat-text-fonts \
+                   texlive \
                    texlive-babel-italian.noarch \
+                   texlive-beamertheme-metropolis \
                    texlive-cdpbundl \
                    texlive-collection-latex \
                    texlive-collection-latexrecommended \
-                   texlive-xetex-def \
-                   texlive-latex \
-                   texlive-fontawesome \
-                   texlive-simple-resume-cv \
-                   texlive-hyphenat \
-                   texlive-datetime2 \
-                   texlive-xltxtra \
-                   texlive-tinos \
                    texlive-collection-xetex \
+                   texlive-comfortaa \
+                   texlive-datetime2 \
+                   texlive-dejavu \
+                   texlive-fontawesome \
+                   texlive-glossaries \
+                   texlive-hyphenat \
+                   texlive-latex \
                    texlive-layaureo \
+                   texlive-makecell \
+                   texlive-pgfopts \
+                   texlive-simple-resume-cv \
+                   texlive-spreadtab \
                    texlive-supertabular \
                    texlive-textpos \
-                   texlive-makecell \
-                   'tex(glossaries.sty)'
+                   texlive-tinos \
+                   texlive-ulem \
+                   texlive-xetex \
+                   texlive-xetex-def \
+                   texlive-xltxtra \
+    && dnf clean all
 
-WORKDIR /data
-VOLUME ["/data"]
+CMD /usr/bin/bash
