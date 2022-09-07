@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM registry.fedoraproject.org/fedora-toolbox:36
 LABEL maintainer "Fabio Alessandro Locati <me@fale.io>"
 
 RUN dnf update -y && \
@@ -32,5 +32,3 @@ RUN dnf update -y && \
                    texlive-xetex-def \
                    texlive-xltxtra \
     && dnf clean all
-
-CMD /usr/bin/bash
