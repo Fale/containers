@@ -2,7 +2,10 @@ FROM registry.fedoraproject.org/fedora-toolbox:36
 LABEL maintainer "Fabio Alessandro Locati <me@fale.io>"
 
 RUN dnf update -y && \
-    dnf install -y redhat-display-fonts \
+    dnf install -y make \
+                   neovim \
+                   neovim-ale \
+                   redhat-display-fonts \
                    redhat-mono-fonts \
                    redhat-text-fonts \
                    texlive \
