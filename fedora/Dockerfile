@@ -3,6 +3,8 @@ LABEL maintainer "Fabio Alessandro Locati <me@fale.io>"
 
 RUN dnf update -y && \
     dnf install -y make \
+                   neovim \
+                   neovim-ale \
                    fedora-packager \
                    fedora-packager-kerberos \
                    fedora-repos-rawhide \
