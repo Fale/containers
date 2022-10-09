@@ -24,6 +24,7 @@ RUN dnf update -y && \
                    texlive-latex \
                    texlive-layaureo \
                    texlive-makecell \
+                   texlive-multirow \
                    texlive-pgfopts \
                    texlive-simple-resume-cv \
                    texlive-spreadtab \
