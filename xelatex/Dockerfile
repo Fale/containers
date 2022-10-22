@@ -2,12 +2,15 @@ FROM registry.fedoraproject.org/fedora-toolbox:36
 LABEL maintainer "Fabio Alessandro Locati <me@fale.io>"
 
 RUN dnf update -y && \
-    dnf install -y make \
+    dnf install -y inkscape \
+                   make \
                    neovim \
                    neovim-ale \
+                   overpass-fonts \
                    redhat-display-fonts \
                    redhat-mono-fonts \
                    redhat-text-fonts \
+                   s3cmd \
                    texlive \
                    texlive-babel-italian.noarch \
                    texlive-beamertheme-metropolis \
