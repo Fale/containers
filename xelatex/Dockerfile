@@ -29,6 +29,8 @@ RUN dnf update -y && \
                    texlive-makecell \
                    texlive-multirow \
                    texlive-pgfopts \
+                   texlive-pst-barcode \
+                   texlive-pst-pdf \
                    texlive-simple-resume-cv \
                    texlive-spreadtab \
                    texlive-supertabular \
