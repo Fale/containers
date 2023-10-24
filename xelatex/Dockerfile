@@ -15,23 +15,31 @@ RUN dnf update -y && \
                    texlive-babel-italian.noarch \
                    texlive-beamertheme-metropolis \
                    texlive-cdpbundl \
+                   texlive-censor \
                    texlive-collection-latex \
                    texlive-collection-latexrecommended \
                    texlive-collection-xetex \
                    texlive-comfortaa \
                    texlive-datetime2 \
                    texlive-dejavu \
+                   texlive-ebgaramond \
                    texlive-fontawesome \
+                   texlive-forest \
                    texlive-glossaries \
                    texlive-hyphenat \
+                   texlive-ifnextok \
+                   texlive-inlinedef \
                    texlive-latex \
                    texlive-layaureo \
                    texlive-makecell \
                    texlive-multirow \
+                   texlive-numprint \
+                   texlive-pbox \
                    texlive-pgfopts \
                    texlive-pst-barcode \
                    texlive-pst-pdf \
                    texlive-simple-resume-cv \
+                   texlive-siunitx \
                    texlive-spreadtab \
                    texlive-supertabular \
                    texlive-textpos \
