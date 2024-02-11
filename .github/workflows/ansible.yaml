@@ -29,5 +29,5 @@ jobs:
           context: ansible
           platforms: linux/amd64
           push: true
-          tags: quay.io/fale/dante:latest,quay.io/fale/dante:${{ github.ref_name }}
+          tags: quay.io/fale/ansible:latest,quay.io/fale/ansible:${{ github.ref_name }}
           outputs: type=image,name=target
