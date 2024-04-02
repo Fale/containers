@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora-toolbox:38
+FROM registry.fedoraproject.org/fedora-toolbox:39
 LABEL maintainer "Fabio Alessandro Locati <me@fale.io>"
 LABEL org.label-schema.name="fale/beets"
 LABEL org.opencontainers.image.source=https://github.com/fale/containers
