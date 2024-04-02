@@ -43,6 +43,7 @@ RUN dnf update -y && \
                    texlive-spreadtab \
                    texlive-supertabular \
                    texlive-textpos \
+                   texlive-tikzpeople \
                    texlive-tinos \
                    texlive-ulem \
                    texlive-xetex \
